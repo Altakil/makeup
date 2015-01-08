@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Rigoletto;
+    src: url("../fonts/rigoletto.eot");
+    src: local('☺'),
+    url("../fonts/rigoletto.ttf") format("truetype"),
+    url('../fonts/rigoletto.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rigoletto.woff') format('woff');
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/OpenSans.eot");
+    src: local('☺'),
+    url("../fonts/OpenSans.ttf") format("truetype"),
+    url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans.woff') format('woff');
+}
+
+@font-face {
+    font-family: PTSans;
+    src: url("../fonts/PTSans.eot");
+    src: local('☺'),
+    url("../fonts/PTSans.ttf") format("truetype"),
+    url('../fonts/PTSans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PTSans.woff') format('woff');
+}
+
+@font-face {
+    font-family: OpenSansSemibold;
+    src: url("../fonts/OpenSansSemibold.eot");
+    src: local('☺'),
+    url("../fonts/OpenSansSemibold.ttf") format("truetype"),
+    url('../fonts/OpenSansSemibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSansSemibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: PTSansReguliar;
+    src: url("../fonts/PTSansReguliar.eot");
+    src: local('☺'),
+    url("../fonts/PTSansReguliar.ttf") format("truetype"),
+    url('../fonts/PTSansReguliar.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PTSansReguliar.woff') format('woff');
+}

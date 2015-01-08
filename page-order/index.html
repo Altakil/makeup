@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>-->
+    <title>Листья воля</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/table-clear.css" type="text/css" rel="stylesheet">
+    <!--[if IE]>
+    <script src="js/html5.js"></script>
+    <![endif]-->
+    <!--[if IE 8 ]>
+    <html class="Ie8"> <![endif]-->
+    <!--[if IE 9 ]>
+    <html class="Ie9"> <![endif]-->
+</head>
+<body>
+<div class="main-wrapper">
+<div class="wrapper">
+<header class="header">
+    <ul class="registration">
+        <li><a href="">Войти</a></li>
+        <li><a href="">Зарегистрироваться</a></li>
+    </ul>
+    <div class="header-main">
+        <div class="logo"></div>
+        <!--I can't make text gradient for mozilla because this browser don't supported desired css property-->
+        <small>...здесь живет и здравствует Анарет...</small>
+        <h2>Волшебные вещи с намерением</h2>
+    </div>
+</header>
+<div id="main-content">
+<aside class="left-side">
+<section class="cart sidebar-block">
+    <div class="top-title sidebar-title">
+        <h2>Корзина</h2>
+    </div>
+    <p class="description">В корзине 3 товара</p>
+    <ul class="goods">
+        <li><img src="img/img_for_goods.png"></li>
+        <li class="name-goods">
+            <p>Название товара</p>
+
+            <p>25$</p>
+        </li>
+        <li>
+            <button></button>
+        </li>
+    </ul>
+    <ul class="goods">
+        <li><img src="img/img_for_goods.png"></li>
+        <li class="name-goods">
+            <p>Название товара</p>
+
+            <p>25$</p>
+        </li>
+        <li>
+            <button></button>
+        </li>
+    </ul>
+    <ul class="goods">
+        <li><img src="img/img_for_goods.png"></li>
+        <li class="name-goods">
+            <p>Название товара</p>
+
+            <p>25$</p>
+        </li>
+        <li>
+            <button></button>
+        </li>
+    </ul>
+    <div class="line"></div>
+    <output>Итого: $75</output>
+    <div class="wrapping">
+        <a href="" class="button">Оформить заказ</a><!--I see a lot of pictures for button on ucoz (not used css3)-->
+        <a href="" class="button-clear button">Очистить</a>
+    </div>
+</section>
+<section class="shop sidebar-block">
+    <div class="part-title sidebar-title">
+        <h2>Магазин</h2>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="">Название пункта меню</a></li>
+            <li><a href="">Название пункта меню</a></li>
+            <li class="triangle-added"><a href="">Название пункта меню</a></li>
+            <li><a href="">Название пункта меню</a></li>
+            <li class="triangle-added"><a href="">Название пункта меню</a></li>
+            <li><a href="">Название пункта меню</a></li>
+            <li><a href="">Название пункта меню</a></li>
+            <li id="last-item"><a href="">Название пункта меню</a></li>
+        </ul>
+    </nav>
+</section>
+<section class="search sidebar-block">
+    <div class="search-title sidebar-title">
+        <h2>Поиск по сайту</h2>
+    </div>
+    <form name="search" method="post" action="">
+        <input type="text" name="find" class="find field-enter" placeholder="Поиск...">
+
+        <div class="wrapping">
+            <input type="image" src="img/search_button.png" name="start-find">
+        </div>
+    </form>
+</section>
+<section class="chat sidebar-block">
+    <div class="top-title sidebar-title">
+        <h2>Мииничат</h2>
+    </div>
+    <div class="area-messages">
+        <dl class="message">
+            <dt class="name-user">Johnny
+                <time>17:41</time>
+            </dt>
+            <dd class="message-user">
+                Morbi hendrerit urna eget lorem venenatis porta. Pellentesque tempor placerat nisi
+                quis accumsan. Vivamus a erat eros.
+            </dd>
+        </dl>
+        <dl class="message">
+            <dt class="name-user">Marta
+                <time>20:02</time>
+            </dt>
+            <dd class="message-user">
+                Morbi hendrerit urna eget lorem venenatis porta. Pellentesque tempor placerat nisi
+                quis accumsan. Vivamus a erat eros.
+            </dd>
+        </dl>
+        <dl class="message">
+            <dt class="name-user">Marta
+                <time>20:02</time>
+            </dt>
+            <dd class="message-user">
+                Morbi hendrerit urna eget lorem venenatis porta. Pellentesque tempor placerat nisi
+                quis accumsan. Vivamus a erat eros.
+            </dd>
+        </dl>
+    </div>
+    <div class="send-message">
+        <form name="chatForm" method="post" action="">
+            <input class="enter-name field-enter" placeholder="Имя" type="text" name="nameUser">
+
+            <div class="code">
+                <input type="text" name="code" placeholder="Код" class="field-enter">
+                <img src="img/code.png">
+                <a href=""></a>
+            </div>
+        </form>
+        <textarea class="text-message">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
+            Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+        </textarea>
+
+        <div class="wrapping">
+            <a class="button-message button" href="">OK</a>
+        </div>
+    </div>
+</section>
+<section class="debriefing sidebar-block">
+    <div class="part-title sidebar-title">
+        <h2>Наш опрос</h2>
+    </div>
+    <h3>Lorem Ipsum - это текст-"рыба", часто.</h3>
+
+    <form name="form" action="" method="post">
+        <input id="firstInput" class="radio-button" type="radio" name="RadioButton" checked>
+        <label for="firstInput">
+                                                <span>
+                                                    <span></span>
+                                                </span>
+            Lorem Ipsum
+        </label><br>
+        <input class="radio-button" id="secondInput" type="radio" name="RadioButton">
+        <label for="secondInput">
+                                                <span>
+                                                    <span></span>
+                                                </span>
+            Lorem Ipsum
+        </label><br>
+        <input class="radio-button" type="radio" id="thirdInput" name="RadioButton">
+        <label for="thirdInput">
+                                                <span>
+                                                    <span></span>
+                                                </span>
+            Lorem Ipsum
+        </label>
+
+        <div class="wrapping">
+            <a class="send-answer button" href="">Ответить</a>
+        </div>
+    </form>
+    <div class="divider"></div>
+    <div class="result">
+        <a href="">Результаты</a>
+        <a href="">Архив опросов</a>
+        <output>Всего ответов: <span>1253</span></output>
+    </div>
+
+</section>
+<section class="archive-news sidebar-block">
+    <div class="part-title sidebar-title">
+        <h2>Архив новостей</h2>
+    </div>
+    <div class="calendar">
+        <div class="month">
+            <a class="previous-month custom-for-button" href=""></a>
+
+            <p>Апрель 2014</p>
+            <a class="next-month custom-for-button" href=""></a>
+        </div>
+        <table class="weeks">
+            <thead>
+            <tr>
+                <th>Пн</th>
+                <th>Вт</th>
+                <th>Ср</th>
+                <th>Чт</th>
+                <th>Пт</th>
+                <th>Сб</th>
+                <th>Вс</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="social">
+        <div class="bracing"></div>
+        <div class="bracing second"></div>
+        <div class="clear"></div>
+        <div class="bottom-social">
+            <div class="point"></div>
+            <div class="point second-point"></div>
+            <div class="point third-point"></div>
+            <div class="point fourth-point"></div>
+            <a href=""><img src="img/social_first.png"></a>
+            <a href=""><img src="img/google_plus.png"></a>
+            <a href=""><img src="img/vk.png"></a>
+            <a href=""><img src="img/faceboock.png"></a>
+        </div>
+    </div>
+</section>
+</aside>
+<main class="content">
+<div class="bread-crumbs custom">
+    <div class="wrapping">
+        <ul>
+            <li class="item-triangle"><a href="">Главная</a></li>
+            <li class="item-triangle"><a href="">Интеренет-магазин</a></li>
+            <li><a href="">Наименование категории товара</a></li>
+        </ul>
+    </div>
+</div>
+<div class="goods-order custom-article">
+    <form name="" method="post" action="">
+        <div class="sidebar-title">
+            <h2>Ваш заказ</h2>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <td class="first-column">№1 Наименование</td>
+                <td class="second-column">Кол-во</td>
+                <td class="third-column">Кол-во</td>
+                <td class="four-column">Сумма</td>
+                <td class="last-column">Удалить</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="name">1. Наименование товара</td>
+                <td>755 руб</td>
+                <td>
+                    <input class="field-enter count-gods" type="text" name="countGoods">
+                </td>
+                <td>755 руб</td>
+                <td><a class="remove" href=""></a></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="wrapping continue">
+            <a href="" class="button">Продолжить покупки</a>
+        </div>
+        <div class="wrapping recalculate">
+            <a href="" class="button">Перещитать</a>
+        </div>
+        <output>Итого: 775 руб.</output>
+        <div class="manner">
+            <h4>Способ оплаты</h4>
+
+            <form name="" method="post" action="">
+                <input class="radio-button" type="radio" name="manner" id="firstManner" checked>
+                <label for="firstManner">
+                                <span>
+                                    <span></span>
+                                </span>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type.
+                </label><br>
+                <input class="radio-button" type="radio" name="manner" id="secondManner">
+                <label for="secondManner">
+                                <span>
+                                    <span></span>
+                                </span>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type.
+                </label>
+            </form>
+        </div>
+        <div class="manner manner-deliver">
+            <h4>Способы доставки</h4>
+
+            <input class="radio-button" type="radio" name="manner" id="firstDeliver" checked>
+            <label for="firstDeliver">
+                                <span>
+                                    <span></span>
+                                </span>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type.
+            </label><br>
+            <input class="radio-button" type="radio" name="manner" id="secondDeliver">
+            <label for="secondDeliver">
+                                <span>
+                                    <span></span>
+                                </span>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type.
+            </label><br>
+            <input class="radio-button" type="radio" name="manner" id="thirdDeliver">
+            <label for="thirdDeliver">
+                                <span>
+                                    <span></span>
+                                </span>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type.
+            </label>
+        </div>
+        <div class="price-info">
+            <ul class="left-price">
+                <li>Такса за доставку</li>
+                <li class="price">45 руб.</li>
+            </ul>
+            <ul class="right-price">
+                <li>Сумма к оплате выбранным способом</li>
+                <li class="price">800 руб.</li>
+            </ul>
+        </div>
+        <input class="field-enter" name="" type="text" placeholder="Имя*">
+        <input class="field-enter" name="" type="text" placeholder="Контактный телефон (вам позвонит менеджер):*">
+        <input class="send-order" type="image" src="img/send-order.png">
+    </form>
+</div>
+<section class="latest-goods">
+    <h2 class="title-section">Товары</h2>
+    <article class="goods-post custom-article">
+        <img src="img/img_for_article.jpg" alt="">
+
+        <div class="short-description">
+            <a href="" class="news-title"><h3>Название товара</h3></a>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+        </div>
+        <div class="news-info">
+            <p>Цена: $50</p>
+
+            <div class="line"></div>
+            <div class="wrapping read-more">
+                <a href="" class="button">Подробнее</a>
+            </div>
+            <div class="wrapping add-goods">
+                <a href="" class="button">Добавить</a>
+            </div>
+        </div>
+    </article>
+    <article class="goods-post custom-article">
+        <img src="img/img_for_article.jpg" alt="">
+
+        <div class="short-description">
+            <a href="" class="news-title"><h3>Название товара</h3></a>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+        </div>
+        <div class="news-info">
+            <p>Цена: $50</p>
+
+            <div class="line"></div>
+            <div class="wrapping read-more">
+                <a href="" class="button">Подробнее</a>
+            </div>
+            <div class="wrapping add-goods">
+                <a href="" class="button">Добавить</a>
+            </div>
+        </div>
+    </article>
+    <article class="goods-post custom-article">
+        <img src="img/img_for_article.jpg" alt="">
+
+        <div class="short-description">
+            <a href="" class="news-title"><h3>Название товара</h3></a>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+        </div>
+        <div class="news-info">
+            <p>Цена: $50</p>
+
+            <div class="line"></div>
+            <div class="wrapping read-more">
+                <a href="" class="button">Подробнее</a>
+            </div>
+            <div class="wrapping add-goods">
+                <a href="" class="button">Добавить</a>
+            </div>
+        </div>
+    </article>
+    <article class="goods-post custom-article">
+        <img src="img/img_for_article.jpg" alt="">
+
+        <div class="short-description">
+            <a href="" class="news-title"><h3>Название товара</h3></a>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+        </div>
+        <div class="news-info">
+            <p>Цена: $50</p>
+
+            <div class="line"></div>
+            <div class="wrapping read-more">
+                <a href="" class="button">Подробнее</a>
+            </div>
+            <div class="wrapping add-goods">
+                <a href="" class="button">Добавить</a>
+            </div>
+        </div>
+    </article>
+    <article class="goods-post custom-article">
+        <img src="img/img_for_article.jpg" alt="">
+
+        <div class="short-description">
+            <a href="" class="news-title"><h3>Название товара</h3></a>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+        </div>
+        <div class="news-info">
+            <p>Цена: $50</p>
+
+            <div class="line"></div>
+            <div class="wrapping read-more">
+                <a href="" class="button">Подробнее</a>
+            </div>
+            <div class="wrapping add-goods">
+                <a href="" class="button">Добавить</a>
+            </div>
+        </div>
+    </article>
+    <article class="goods-post custom-article">
+        <img src="img/img_for_article.jpg" alt="">
+
+        <div class="short-description">
+            <a href="" class="news-title"><h3>Название товара</h3></a>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+        </div>
+        <div class="news-info">
+            <p>Цена: $50</p>
+
+            <div class="line"></div>
+            <div class="wrapping read-more">
+                <a href="" class="button">Подробнее</a>
+            </div>
+            <div class="wrapping add-goods">
+                <a href="" class="button">Добавить</a>
+            </div>
+        </div>
+    </article>
+    <article class="goods-post custom-article">
+        <img src="img/img_for_article.jpg" alt="">
+
+        <div class="short-description">
+            <a href="" class="news-title"><h3>Название товара</h3></a>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+        </div>
+        <div class="news-info">
+            <p>Цена: $50</p>
+
+            <div class="line"></div>
+            <div class="wrapping read-more">
+                <a href="" class="button">Подробнее</a>
+            </div>
+            <div class="wrapping add-goods">
+                <a href="" class="button">Добавить</a>
+            </div>
+        </div>
+    </article>
+    <article class="goods-post custom-article">
+        <img src="img/img_for_article.jpg" alt="">
+
+        <div class="short-description">
+            <a href="" class="news-title"><h3>Название товара</h3></a>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+        </div>
+        <div class="news-info">
+            <p>Цена: $50</p>
+
+            <div class="line"></div>
+            <div class="wrapping read-more">
+                <a href="" class="button">Подробнее</a>
+            </div>
+            <div class="wrapping add-goods">
+                <a href="" class="button">Добавить</a>
+            </div>
+        </div>
+    </article>
+    <article class="goods-post custom-article">
+        <img src="img/img_for_article.jpg" alt="">
+
+        <div class="short-description">
+            <a href="" class="news-title"><h3>Название товара</h3></a>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+        </div>
+        <div class="news-info">
+            <p>Цена: $50</p>
+
+            <div class="line"></div>
+            <div class="wrapping read-more">
+                <a href="" class="button">Подробнее</a>
+            </div>
+            <div class="wrapping add-goods">
+                <a href="" class="button">Добавить</a>
+            </div>
+        </div>
+    </article>
+</section>
+</main>
+</div>
+</div>
+<div class="clear"></div>
+<footer class="footer">
+    <a href="" class="copyright">Lisya Volya © 2014</a>
+    <ul class="list-copyright">
+        <li class="first"><a class="copyright" href="">Website builder - uCoz</a></li>
+        <li><a class="copyright" href="">Copyright UCOZLAB © 2014</a></li>
+    </ul>
+</footer>
+</div>
+</body>
+</html>
